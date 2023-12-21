@@ -9,7 +9,9 @@
   <maintainer email="kahhooi.tan@tier4.jp">Kah Hooi Tan</maintainer>
   <license>Apache License 2.0</license>
 
-  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+  <buildtool_depend>ament_cmake_core</buildtool_depend>
+  <buildtool_depend>ament_cmake_export_dependencies</buildtool_depend>
+  <buildtool_depend>ament_cmake_test</buildtool_depend>
   <buildtool_depend>autoware_cmake</buildtool_depend>
 
   <depend>diagnostic_updater</depend>
@@ -21,7 +23,7 @@
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>autoware_lint_common</test_depend>
   <test_depend>ament_cmake_ros</test_depend>
-  
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>
